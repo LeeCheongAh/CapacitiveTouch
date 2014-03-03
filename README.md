@@ -1,1 +1,1 @@
-Interfaces with a custom built capacitive touch sensor. It leverages the Capactivie Touch Arduino library and thresholds the signal into a digital output. It also makes us of a "back" sensor used in a behavioral assay to turn on autocalibration.
+Interfaces with a custom built capacitive touch sensor. It leverages the Capactivie Touch Arduino library and thresholds the signal into a digital output. It also makes use of a "back" sensor used in a behavioral assay to turn on autocalibration.
