@@ -8,7 +8,9 @@
 */
 
 const int cap_left_in = 2;
+const int cap_shared = 3;
 const int cap_right_in = 4;
+
 const int cap_left_out = 8;
 const int cap_right_out = 9;
 const int ir_reach = 6;
@@ -16,8 +18,9 @@ const int ir_back = 7;
 
 const int led_mirror = 11;
 
-CapacitiveSensor cap_left_sensor = CapacitiveSensor(3, cap_left_in); //pin 2 sensor
-CapacitiveSensor cap_right_sensor = CapacitiveSensor(3,cap_right_in); //pin 6 sensor
+//share pin 3
+CapacitiveSensor cap_left_sensor = CapacitiveSensor(cap_shared, cap_left_in);
+CapacitiveSensor cap_right_sensor = CapacitiveSensor(cap_shared,cap_right_in);
 
 long cap_left_value = 0;
 long cap_right_value = 0;
